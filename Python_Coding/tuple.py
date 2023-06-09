@@ -1,0 +1,11 @@
+tuple = ('tiger', 5, 100, False, 'bird', 'tiger')
+print(tuple)
+print(type(tuple))
+print(tuple[1], tuple[-1])
+print(tuple[1::])
+print(tuple[1::2])
+# convert a tuple to a list
+list = list(tuple)
+print(list)
+print(type(list))
+print('Tuple is ordered, unchangeable, duplicates allow.')

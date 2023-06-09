@@ -1,0 +1,11 @@
+list = ['man', 2, 4, True, 'lion']
+print(list[4])
+print(list)
+print(list[-1::-1])
+print(list[-1:-4:-1])
+print(list[-1:5])
+print(list[:-1:])
+print(list[1:4])
+print(list[1:6])
+print(list[::-1])
+print('List is ordered, changeable, duplicates allow.')
